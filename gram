@@ -1,0 +1,4 @@
+$digit = ZERO | ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE;
+$letter = A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z;
+
+(SENT-START $digit $digit $digit $digit $letter $letter SENT-END)
